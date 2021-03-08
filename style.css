@@ -1,6 +1,42 @@
-/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+body {
+    background-color:#b2bec3;
+    font-family: 'Nunito', sans-serif;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    }
+
+.box {
+    background-color: white;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    }
+
+h1 {
+    color: #d63031;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 /*
 BARVY:
